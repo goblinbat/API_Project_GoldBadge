@@ -1,0 +1,7 @@
+API Project
+
+
+Maybe (extra, if time)
+--repeat, be able to have a team of six pokemon follow you
+--clear team
+--replace any member of the team

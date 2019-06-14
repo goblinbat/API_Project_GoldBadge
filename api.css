@@ -1,0 +1,90 @@
+nav {
+    position: static;
+    z-index: 100;
+    width: 100%;
+    min-height: 10vh;
+    background-color: black;
+    /* display: inline-block; */
+    padding: 20px;
+}
+
+.row {
+    margin: 0px !important;
+}
+
+nav h1 {
+    /* display: inline-block; */
+    margin-left: 10px;
+    color: white;
+}
+
+#choose {
+    border-radius: 5px;
+    padding: 5px;
+    width: 210px;
+}
+
+.pokebtn {
+    border-radius: 20px;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+#clear {
+    background-color: cornflowerblue;
+}
+
+#get {
+    background-color: palevioletred;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#showName {
+    color: white;
+}
+
+#new-bg {
+    background-color: white;
+    color: black;
+    margin-left: 40px;
+    /* display: inline-block; */
+}
+
+#background {
+    max-height: 90vh !important;
+    width: 100% !important;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+
+#sprite {
+    /* max-width: 100px;
+    max-height: 100px; */
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    cursor: pointer;
+    /* background-color: aqua;  */
+    transition: transform .1s;
+}
+
+.right {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.left {
+    -moz-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
