@@ -62,8 +62,8 @@ nav h1 {
 #sprite {
     /* max-width: 100px;
     max-height: 100px; */
-    height: 100px;
-    width: 100px;
+    /* height: 100px;
+    width: 100px; */
     background-repeat: no-repeat;
     position: absolute;
     cursor: pointer;
