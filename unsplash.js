@@ -11,6 +11,7 @@ function getPic() {
         return response.blob();
     })
     .then(function(photoBlob) {
+        // console.log(photoBlob);
         var objectURL = URL.createObjectURL(photoBlob);
         randomImage.src = objectURL;
     })

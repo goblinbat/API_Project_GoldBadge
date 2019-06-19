@@ -88,3 +88,20 @@ nav h1 {
     filter: FlipH;
     -ms-filter: "FlipH";
 }
+
+.footer {
+    width: 100%;
+    min-height: 10vh;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: white;
+}
